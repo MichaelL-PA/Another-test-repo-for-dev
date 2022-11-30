@@ -1,7 +1,12 @@
-module example/go/mod/unknown/licenses/new/v3
+module example/v2/versions/available
 
 go 1.19
 
 require (
-	acln.ro/ebpf v0.2.0
+	github.com/alexedwards/scs v1.0.0
+)
+
+require (
+	golang.org/x/crypto v0.0.0-20220919173607-35f4265a4bc0 // indirect
+	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
 )
