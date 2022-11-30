@@ -1,7 +1,7 @@
-module example/go/mod/package/versioning/test
+module example/go/mod/unknown/licenses/new/v3
 
 go 1.19
 
 require (
-	github.com/go-redis/redis v6.15.3
+	acln.ro/ebpf v0.2.0
 )
